@@ -7,6 +7,7 @@
 body{
     margin: auto;
     width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .clarfix::after{
     content: "";
@@ -49,8 +50,22 @@ section > img{
 }
 .green{
     background-color: #00875A;
-    width: 4.2rem;
+    width: 4.5rem;
 }
 .side{
     left: 2.4rem;
+}
+.txt{
+    position: absolute;
+}
+.descrition{
+    font-weight: bold;
+}
+.money{
+    color: red;
+    font-size: .8rem;
+}
+.oldprice{
+    color: black;
+    text-decoration: line-through;
 }
