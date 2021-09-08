@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: auto;
+    width: 80%;
+}
+.row div{
+    height: 500px;
+    width: 32.7%;
+    background-color: blueviolet;
+    float: left;
+    margin: 3% 0.3%;
+}
+.clarfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
