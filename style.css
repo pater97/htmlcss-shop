@@ -17,9 +17,11 @@ body{
 /* structure */
 .row section{
     width: 32.7%;
+    height: 477.77px;
     float: left;
-    margin: 3% 0.3%;
+    margin: 2.8% 0.3%;
     position: relative;
+    background-size: cover;
 }
 section > img{
     width: 100%;
@@ -41,8 +43,27 @@ section > img{
     right: 0;
     font-size: 1.4rem;
 }
-.hyde{
-    display: none;
+/* scambio immagini on hover */
+.show:hover{
+    opacity: 0;
+}
+#ph1{
+    background-image: url(./img/1b.webp);
+}
+#ph2{
+    background-image: url(./img/2b.webp);
+}
+#ph3{
+    background-image: url(./img/3b.webp);
+}
+#ph4{
+    background-image: url(./img/4b.webp);
+}
+#ph5{
+    background-image: url(./img/5b.webp);
+}
+#ph6{
+    background-image: url(./img/6b.webp);
 }
 /* utility */
 .red{
