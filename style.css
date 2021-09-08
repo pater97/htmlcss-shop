@@ -18,16 +18,31 @@ body{
     width: 32.7%;
     float: left;
     margin: 3% 0.3%;
+    position: relative;
 }
 section > img{
     width: 100%;
 }
 /* banner */
-.discount{
-    background-color: red;
-    width: 3rem;
+.ban{
+    color: white;
+    width: 2.2rem;
     position: absolute;
+    bottom: 1.5rem;
+    font-size: .8rem;
+    padding: 2px;
 }
 .hyde{
     display: none;
+}
+/* utility */
+.red{
+    background-color:#EB0037;
+}
+.green{
+    background-color: #00875A;
+    width: 4.2rem;
+}
+.side{
+    left: 2.4rem;
 }
